@@ -1,12 +1,14 @@
 html {
-    
     font-family: "Lato", sans-serif;
     text-indent: 5px;
   }
 
+img {
+    object-fit: cover;
+}
+
 .gridOne {
     display: grid;
-    width: 500px;
     border: solid 1px;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -24,7 +26,6 @@ html {
 
 .gridTwo {
     display: grid;
-    width: 500px;
     border: solid 1px;
     grid-template-columns: 1fr 1fr 2fr;
     margin-top: 30px;
@@ -44,28 +45,30 @@ html {
 }
 
 .gridThree {
-    display: grid;
-    width: 500px;
-    height: 300px;
     border: solid 1px;
     background-color: lightgrey;
+    width: 500px;
+}
+
+.gridThree-text {
+    height: 75px;
 }
 
 .gridThree-img img {
+    display: grid;
     object-fit: cover;
-    width:500px;
+    width: 500px;
     height:225px;
-    margin-left: -5px;
-    margin-bottom: -27px;
+    
 }
 
 .gridFour {
     display: grid;
-    width: 500px;
     border: solid 1px;
     background-color: green;
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 500px;
 }
 
 #gridFour-2 {
@@ -75,9 +78,9 @@ html {
 
 .gridFive {
     display: grid;
-    width: 500px;
     border: solid 1px;
     background-color: lightgrey;
+    object-fit: cover;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -85,7 +88,7 @@ html {
 .gridFive img {
     display: inline-block;
     padding-top: 200px;
-    padding-inline-end: 45px;
+    padding-inline-end: 30px;
     width: 200px;
     height: 200px;
 }
@@ -94,11 +97,11 @@ html {
     display: grid;
     grid-template-columns: 1fr 3fr;
     border: solid 1px;
-    width: 500px;
     background-color: lightgrey;
     margin-bottom: 50px;
     font-family: 'Mystery Quest', system-ui;
     padding-top: 10px;
+    width: 500px;
 }
 
 .license {
