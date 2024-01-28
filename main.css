@@ -1,0 +1,108 @@
+html {
+    
+    font-family: "Lato", sans-serif;
+    text-indent: 5px;
+  }
+
+.gridOne {
+    display: grid;
+    width: 500px;
+    border: solid 1px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: lightgrey;
+    padding-top: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.gridOne a {
+    color: blue;
+}
+
+.gridTwo {
+    display: grid;
+    width: 500px;
+    border: solid 1px;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gridTwo-1 {
+    background-color: red;
+}
+
+.gridTwo-2 {
+    background-color: blue;
+}
+
+.gridTwo-3 {
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    width: 500px;
+    height: 300px;
+    border: solid 1px;
+    background-color: lightgrey;
+}
+
+.gridThree-img img {
+    object-fit: cover;
+    width:500px;
+    height:225px;
+    margin-left: -5px;
+    margin-bottom: -27px;
+}
+
+.gridFour {
+    display: grid;
+    width: 500px;
+    border: solid 1px;
+    background-color: green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#gridFour-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    display: grid;
+    width: 500px;
+    border: solid 1px;
+    background-color: lightgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gridFive img {
+    display: inline-block;
+    padding-top: 200px;
+    padding-inline-end: 45px;
+    width: 200px;
+    height: 200px;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: solid 1px;
+    width: 500px;
+    background-color: lightgrey;
+    margin-bottom: 50px;
+    font-family: 'Mystery Quest', system-ui;
+    padding-top: 10px;
+}
+
+.license {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    margin-left: 15px;
+}
