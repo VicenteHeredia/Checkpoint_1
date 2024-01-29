@@ -45,13 +45,12 @@ img {
 }
 
 .gridThree {
+    display: grid;
+    grid-auto-rows: 75px 225px;
     border: solid 1px;
     background-color: lightgrey;
     width: 500px;
-}
-
-.gridThree-text {
-    height: 75px;
+    height: 300px;
 }
 
 .gridThree-img img {
@@ -59,7 +58,6 @@ img {
     object-fit: cover;
     width: 500px;
     height:225px;
-    
 }
 
 .gridFour {
@@ -78,19 +76,19 @@ img {
 
 .gridFive {
     display: grid;
+    grid-template-rows: 250px;
     border: solid 1px;
     background-color: lightgrey;
-    object-fit: cover;
+    height: 500px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .gridFive img {
-    display: inline-block;
-    padding-top: 200px;
-    padding-inline-end: 30px;
     width: 200px;
     height: 200px;
+    object-fit: cover;
+    padding-inline: 5px;
 }
 
 .gridSix {
