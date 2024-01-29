@@ -3,10 +3,6 @@ html {
     text-indent: 5px;
   }
 
-img {
-    object-fit: cover;
-}
-
 .gridOne {
     display: grid;
     border: solid 1px;
@@ -17,8 +13,6 @@ img {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-
 
 .gridOne a {
     color: blue;
